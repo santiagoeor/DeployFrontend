@@ -32,3 +32,4 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           local-dir: dist/frontend-system-cobro-venta17/browser/
+          server-dir: public_html/
